@@ -64,7 +64,7 @@ set smarttab
 set autoread
 set smartindent
 set hlsearch
-set showmatch
+"set showmatch
 set ruler
 set showcmd
 set laststatus=2
