@@ -82,6 +82,7 @@ let g:airline#extensions#branch#enabled = 1
 nnoremap <C-N> :bn<CR>
 nnoremap <C-P> :bp<CR>
 
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif   "close scratch automatically
 
 set hidden
 set cul
