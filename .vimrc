@@ -87,3 +87,6 @@ autocmd CursorMovedI * if pumvisible() == 0|pclose|endif   "close scratch automa
 set hidden
 set cul
 highlight CursorLine   cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
+
+set backspace=2
+set so=999
